@@ -63,6 +63,17 @@ Wazuh recorded file additions, checksum changes, and deletions. The modification
 - [Original Project Report](docs/original-project-report.pdf.pdf)
 - [Expanded Project Analysis](docs/expanded-project-analysis.pdf.pdf)
 
+ ## Project Results
+
+| Test | Result |
+|---|---|
+| Windows 11 monitoring | Windows Event Logs and Sysmon reviewed in Wazuh |
+| Kali Linux file monitoring | File creation, modification, and deletion detected |
+| File integrity analysis | File metadata and hashes recorded |
+| Security investigation | Wazuh alerts reviewed and documented |
+
+**Project status:** Windows and Kali Linux monitoring validated. Metasploitable 3 integration is planned.
+
 ## Skills Demonstrated
 
 - Wazuh SIEM monitoring
