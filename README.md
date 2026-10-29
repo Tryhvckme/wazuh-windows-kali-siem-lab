@@ -20,6 +20,24 @@ This project demonstrates endpoint monitoring, log collection, security event in
 
 The Windows agent `Windows11-Lab-01` was monitored through Wazuh. The investigation included reviewing Windows event records and process-related detections.
 
+### Windows Monitoring Evidence
+
+**Wazuh Agents**
+
+![Wazuh agent status](screenshots/wazuh-agents.png)
+
+**Windows Sysmon Log**
+
+![Windows Sysmon evidence](screenshots/window%20syslog.png)
+
+**Windows Sysmon Log Capture**
+
+![Windows Sysmon capture](screenshots/window%20syslog%20capture.png)
+
+**Windows Lab Endpoint**
+
+![Windows lab endpoint](screenshots/window-lab-01.png)
+
 ## Kali Linux File Integrity Monitoring
 
 The Kali agent `cyb3rgwd` monitored file-integrity activity involving:
