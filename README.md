@@ -72,7 +72,7 @@ Wazuh recorded file additions, checksum changes, and deletions. The modification
 | File integrity analysis | File metadata and hashes recorded |
 | Security investigation | Wazuh alerts reviewed and documented |
 
-**Project status:** Windows and Kali Linux monitoring validated. Metasploitable 3 integration is planned.
+**Project status:** Windows and Kali Linux monitoring validated.
 
 ## Skills Demonstrated
 
@@ -85,10 +85,32 @@ Wazuh recorded file additions, checksum changes, and deletions. The modification
 
 ## Future Work
 
-- Complete Metasploitable 3 integration with Wazuh.
 - Extend security-event detection and analysis.
 - Document additional lab scenarios and results.
 
 ## Ethical Use
 
 This project was conducted in a controlled virtual lab for educational and defensive cybersecurity purposes.
+
+## Technical Findings
+
+### Windows Security Monitoring
+
+- Reviewed Windows Event Logs and Microsoft Sysmon telemetry in Wazuh.
+- Investigated process-related security events and an account-discovery detection associated with MITRE ATT&CK T1087.
+
+### Kali Linux File Integrity Monitoring
+
+- Tested file creation, modification, and deletion in the monitored `/wazuh-test/` directory.
+- Reviewed file-integrity alerts and changes to file metadata and cryptographic hashes.
+
+### Project Conclusion
+
+This project provided hands-on experience with SIEM monitoring, endpoint telemetry, file-integrity monitoring, and security-event investigation using Wazuh in a controlled virtual lab.
+
+### Future Improvements
+
+- Expand security-event detection and analysis.
+- Test additional file-integrity monitoring scenarios.
+- Improve alert investigation and documentation.
+
