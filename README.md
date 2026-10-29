@@ -60,8 +60,8 @@ Wazuh recorded file additions, checksum changes, and deletions. The modification
 
 ## Project Documentation
 
-- [Original Project Report](docs/original-project-report.pdf.pdf)
-- [Expanded Project Analysis](docs/expanded-project-analysis.pdf.pdf)
+- [Original Project Report](docs/original-project-report.pdf)
+- [Expanded Project Analysis](docs/expanded-project-analysis.pdf)
 
  ## Project Results
 
